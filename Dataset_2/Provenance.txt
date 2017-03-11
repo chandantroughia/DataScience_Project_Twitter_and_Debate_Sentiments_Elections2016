@@ -1,0 +1,90 @@
+==== Gathering Dataset 2 (Presidential Debates)===
+Person Responsible: Chandan Singh Troughia
+
+Following are the steps used to convert the transcript data to JSON:
+
+Step 1. Scraping data from websites to  TEXT format:
+	A. Text was scraped from the following world wide web links:
+		a. Debate 1: http://www.presidency.ucsb.edu/ws/index.php?pid=118971
+		b. Debate 2: http://www.presidency.ucsb.edu/ws/index.php?pid=119038
+		c. Debate 3: http://www.presidency.ucsb.edu/ws/index.php?pid=119039
+	B. A script was made to scrape transcript data from the above mentioned links to TEXT format:
+		Script Details:
+		Language Used: Python 3.5
+		Python Packages Used: BeautifulSoup, codecs and urllib
+		File Name: Scraper.py
+
+Step 2: Manually converted the TEXT data in the CSV format.
+
+Step 3: Converting CSV to JSON format:
+	A. Made a script to convert CSV files to JSON format
+		Script Details:
+		Language Used: Python 3.5
+		Python Packages Used: sys, getopt, csv, json
+		File Name: Csv2Json.py
+
+====================================================
+
+Debate 1 Information:
+
+Link: http://www.presidency.ucsb.edu/ws/index.php?pid=118971
+
+Date: September 26th, 2016
+
+Location: Hofstra University in Hempstead, New York
+
+PARTICIPANTS:
+Former Secretary of State Hillary Clinton (D) and
+Businessman Donald Trump (R)
+MODERATOR:
+Lester Holt (NBC News)
+
+
+
+Debate 2 Information:
+
+Link: http://www.presidency.ucsb.edu/ws/index.php?pid=119038
+Date: October 9th, 2016
+
+Location: Washington University in St. Louis, Missouri
+
+PARTICIPANTS:
+Former Secretary of State Hillary Clinton (D) and
+Businessman Donald Trump (R)
+MODERATORS:
+Anderson Cooper (CNN) and 
+Martha Raddatz (ABC News)
+
+Audience Participants:
+Ken Karpowicz
+Gorbah Hamed
+Spencer Mass
+James Carter
+Beth Miller
+ken Bone
+Karl
+
+
+Debate 3 Information:
+
+Link: http://www.presidency.ucsb.edu/ws/index.php?pid=119039
+
+Date: October 19th, 2016
+
+Location: University of Nevada in Las Vegas
+
+PARTICIPANTS:
+Former Secretary of State Hillary Clinton (D) and
+Businessman Donald Trump (R)
+MODERATOR:
+Chris Wallace (Fox News)
+
+
+
+
+
+
+
+
+
+
